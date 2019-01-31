@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#434c86</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#34495e</color>
+    <color name="background">#232C3D</color>
+    <color name="item">#2F3A4F</color>
+    <color name="buttons">#FFFFFF</color>
+    <color name="primaryoffset">#64FF6C</color>
+    <color name="pressedOffset">#3FD747</color>
+
+    <color name="darkThemeAccent">#585858</color>
+    <color name="stopAlarmBtn"></color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="iron">#000000</color>
+
+</resources>

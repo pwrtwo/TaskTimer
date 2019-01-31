@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">S_Timer</string>
+    <string name="loginLogo">Stop Watch</string>
+    <string-array name="tasks">
+        <item>Brush Teeth</item>
+        <item>Get Dressed</item>
+        <item>Pack Backpack</item>
+        <item>Test</item>
+    </string-array>
+
+    <string-array name="minutes">
+        <item>3</item>
+        <item>5</item>
+        <item>4</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="seconds">
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Brush Teeth with tooth brush...</item>
+        <item>Put on your clothes</item>
+        <item>Put homework and textbooks into backpack</item>
+        <item>Short timer to see what happens if you don't complete on time</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

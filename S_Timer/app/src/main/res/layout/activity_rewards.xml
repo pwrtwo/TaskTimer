@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Rewards">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="346dp"
+        android:layout_height="295dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp" />
+
+    <Button
+        android:id="@+id/backBtn"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/playBtn"
+        android:layout_marginEnd="50dp"
+        android:background="@color/darkThemeAccent"
+        android:text="Back To Tasks"
+        android:textColor="@color/buttons" />
+
+    <Button
+        android:id="@+id/playBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="46dp"
+        android:layout_marginStart="51dp"
+        android:background="@color/buttons"
+        android:text="Play / Pause"
+        android:textColor="@color/primaryoffset" />
+
+    <TextView
+        android:id="@+id/rewardMsgTextView"
+        android:layout_width="351dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="                Great"
+        android:textColor="@color/buttons"
+        android:textSize="32sp" />
+</RelativeLayout>

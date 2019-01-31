@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/myListView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/item"
+            android:dividerHeight="8dp"
+            android:transcriptMode="alwaysScroll" >
+        </ListView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/stopAlarmButton"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/button_background"
+        android:text="Stop Alarm"
+        android:textColor="@color/primaryoffset"
+        tools:layout_editor_absoluteY="456dp"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
